@@ -68,7 +68,7 @@ public class UsuarioDaoTest {
 
 	@Test
 	public void deveAlterarUmUsuario() {
-		Usuario usuario = new Usuario("Mauricio Aniche", "mauricio@aniche.com.br");
+		Usuario usuario = new Usuario("Bezerra", "bezerra@email");
 
 		usuarioDao.salvar(usuario);
 
@@ -83,7 +83,7 @@ public class UsuarioDaoTest {
 		assertNotNull(novoUsuario);
 		System.out.println(novoUsuario);
 
-		Usuario usuarioInexistente = usuarioDao.porNomeEEmail("Mauricio Aniche", "mauricio@aniche.com.br");
+		Usuario usuarioInexistente = usuarioDao.porNomeEEmail("Bezerra", "bezerra@email");
 		assertNull(usuarioInexistente);
 	}
 
