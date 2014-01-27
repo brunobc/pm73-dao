@@ -10,7 +10,7 @@ import br.com.caelum.pm73.dominio.Usuario;
 
 public class LeilaoBuilder {
 
-	private Usuario dono;
+	private Usuario donoTest;
 	private double valor;
 	private String nome;
 	private boolean usado;
