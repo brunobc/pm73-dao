@@ -17,7 +17,7 @@ import br.com.caelum.pm73.dominio.Usuario;
 
 public class LeilaoDaoTest {
 
-	private Session session;
+	private Session session1;
 	private UsuarioDao usuarioDao;
 	private LeilaoDao leilaoDao;
 
